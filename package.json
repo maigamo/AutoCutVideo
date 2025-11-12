@@ -1,0 +1,32 @@
+{
+  "name": "autocutvideo",
+  "version": "1.0.0",
+  "description": "OpenCut 批量视频自动化处理工具 - 支持倍速、翻转、锐化、背景音乐等功能",
+  "type": "module",
+  "main": "scripts/batch-video-processor.js",
+  "scripts": {
+    "process": "node scripts/batch-video-processor.js",
+    "check": "node scripts/check-environment.js",
+    "help": "node scripts/batch-video-processor.js --help",
+    "example": "node scripts/example-usage.ps1"
+  },
+  "keywords": [
+    "video",
+    "ffmpeg",
+    "automation",
+    "batch-processing",
+    "video-editor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
+
