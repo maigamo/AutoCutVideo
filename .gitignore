@@ -1,22 +1,26 @@
-# Node
+# 依赖
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 package-lock.json
-yarn.lock
 
-# Output videos
-videos/output/
-*.mp4
-*.mov
-*.avi
-*.mkv
-*.webm
+# 构建产物
+dist/
+dist-electron/
+out/
+.vite/
 
-# Temporary files
+# 数据文件
+data/*.db
+videos/
+music/
+thumbnails/
+logs/
+
+# 配置文件(保留示例)
+config/settings.json
+
+# 临时文件
+*.log
 *.tmp
-*.temp
 .DS_Store
 Thumbs.db
 
@@ -25,23 +29,3 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-*~
-
-# Logs
-logs/
-*.log
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Desktop.ini
-
-# Environment
-.env
-.env.local
-.env.*.local
-
